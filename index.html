@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carded Mini</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Carded Mini</h1>
+    <nav><a href="practice.html">Practice →</a></nav>
+  </header>
+  <main>
+    <section>
+      <h2>Import flashcards</h2>
+      <p class="hint">One card per line: <code>Term | Definition</code></p>
+      <textarea id="importText" rows="6" placeholder="Photosynthesis | The process by which plants convert sunlight into energy"></textarea>
+      <button id="importBtn">Import</button>
+    </section>
+    <section>
+      <h2>Add a card manually</h2>
+      <input id="termInput" placeholder="Term" />
+      <input id="defInput" placeholder="Definition" />
+      <button id="addBtn">Add card</button>
+    </section>
+    <section>
+      <h2>Saved cards</h2>
+      <ul id="cardList"></ul>
+      <button id="clearBtn" class="secondary">Clear all</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
