@@ -81,7 +81,6 @@ if (document.getElementById('cardContainer')) {
         </div>
       `;
       card.addEventListener('click', () => {
-        card.classList.toggle('flipped');
       });
       container.appendChild(card);
     });
